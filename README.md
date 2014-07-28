@@ -1,11 +1,11 @@
 This example demonstrates packaging a kivy application on Ubuntu 12.04 using PyInstaller.
 
-The commands to install python, kivy, and pyinstaller are in `boostrap.sh`. A Vagrantfile
+The commands to install python, kivy, and pyinstaller are in `bootstrap.sh`. A Vagrantfile
 is provided to make it easy to package a demo kivy app into a single-file linux executable.
 
 Instructions:
 
-- Install [Vagrant](http://www.vagrantup.com)
+- Install [VirtualBox](https://www.virtualbox.org/) and [Vagrant](http://www.vagrantup.com)
 - `git clone https://github.com/rajbot/kivy_pyinstaller_linux_example.git`
 - `cd kivy_pyinstaller_linux_example`
 - `vagrant up`
