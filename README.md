@@ -10,5 +10,5 @@ Instructions:
 - `cd kivy_pyinstaller_linux_example`
 - `vagrant up` (this will take a while)
 - After the provisioning script is finished, type `vagrant reload` to boot into the desktop environment you just installed
-- In the VirtualBox GUI window, log in as user "vagrant", pw "vagrant
+- In the VirtualBox GUI window, log in as user "vagrant", pw "vagrant"
 - Open a terminal and run `/home/vagrant/pong/dist/pong`
