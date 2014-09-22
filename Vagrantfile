@@ -53,6 +53,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     # Use VBoxManage to customize the VM. For example to change memory:
     # vb.customize ["modifyvm", :id, "--memory", "1024"]
+
+    # Add nikon j3 camera
+    vb.customize ['modifyvm', :id, '--usb', 'on']
+    vb.customize ['usbfilter', 'add', '0', '--target', :id, '--name', 'NikonJ3', '--vendorid', '0x04b0', '--productid', '0x0605']
+
   end
   #
   # View the documentation for the provider you're using for more
