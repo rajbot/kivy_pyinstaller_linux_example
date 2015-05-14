@@ -61,6 +61,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     # Add nikon j4 camera
     vb.customize ['usbfilter', 'add', '0', '--target', :id, '--name', 'NikonJ4', '--vendorid', '0x04b0', '--productid', '0x0609']
 
+    # Add nikon j5 camera
+    vb.customize ['usbfilter', 'add', '0', '--target', :id, '--name', 'NikonJ5', '--vendorid', '0x04b0', '--productid', '0x060b']
+
   end
   #
   # View the documentation for the provider you're using for more
